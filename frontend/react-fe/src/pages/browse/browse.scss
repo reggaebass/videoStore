@@ -1,0 +1,17 @@
+.browse-container {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 200vh;
+}
+
+.head-logo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    img {
+        height: 150px;
+    }
+}

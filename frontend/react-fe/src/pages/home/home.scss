@@ -1,0 +1,16 @@
+.actions {
+    display: flex;
+    justify-content: center;
+    .button {
+        width: 130px;
+        height: 130px;
+        cursor: pointer;
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin: 0 auto;
+}
