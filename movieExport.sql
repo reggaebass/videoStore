@@ -85,23 +85,23 @@ COPY public.movies (id, title, genre, language, director, year, price, stock) FR
 21	A Separation	Drama	Persian	Asghar Farhadi	2011	7.75	10
 10	Oldboy	Action	Korean	Park Chan-wook	2003	6.75	7
 4	Spirited Away	Animation	Japanese	Hayao Miyazaki	2001	5.5	9
-17	The Secret in Their Eyes	Mystery	Spanish	Juan José Campanella	2009	7.25	9
-9	The Intouchables	Comedy-Drama	French	Olivier Nakache	2011	7.75	9
-13	Life of Pi	Adventure	English	Ang Lee	2012	8	9
-15	The Lives of Others	Drama	German	Florian Henckel	2006	7.5	9
-12	The Grand Budapest Hotel	Comedy	English	Wes Anderson	2014	8.25	9
-18	Let the Right One In	Horror	Swedish	Tomas Alfredson	2008	6.5	9
-14	Memories of Murder	Crime	Korean	Bong Joon-ho	2003	6.25	9
+17	The Secret in Their Eyes	Mystery	Spanish	Juan José Campanella	2009	7.25	10
+9	The Intouchables	Comedy-Drama	French	Olivier Nakache	2011	7.75	10
+13	Life of Pi	Adventure	English	Ang Lee	2012	8	10
+15	The Lives of Others	Drama	German	Florian Henckel	2006	7.5	10
+12	The Grand Budapest Hotel	Comedy	English	Wes Anderson	2014	8.25	10
+18	Let the Right One In	Horror	Swedish	Tomas Alfredson	2008	6.5	10
+14	Memories of Murder	Crime	Korean	Bong Joon-ho	2003	6.25	10
 20	The Hunt	Drama	Danish	Thomas Vinterberg	2012	7.5	10
-3	Amélie	Romantic Comedy	French	Jean-Pierre Jeunet	2001	9	8
-6	City of God	Crime	Portuguese	Fernando Meirelles	2002	7	8
-5	The Godfather	Crime	English	Francis Ford Coppola	1972	8	5
+3	Amélie	Romantic Comedy	French	Jean-Pierre Jeunet	2001	9	10
+6	City of God	Crime	Portuguese	Fernando Meirelles	2002	7	10
+5	The Godfather	Crime	English	Francis Ford Coppola	1972	8	10
 8	The Shawshank Redemption	Drama	English	Frank Darabont	1994	6.5	10
-16	Her	Science Fiction	English	Spike Jonze	2013	8.75	1
-2	Parasite	Thriller	Korean	Bong Joon-ho	2019	9	5
-7	Pan's Labyrinth	Fantasy	Spanish	Guillermo del Toro	2006	8.5	8
-1	Inception	Science Fiction	English	Christopher Nolan	2010	7.5	1
-11	Crouching Tiger, Hidden Dragon	Action	Mandarin	Ang Lee	2000	7.25	8
+16	Her	Science Fiction	English	Spike Jonze	2013	8.75	10
+2	Parasite	Thriller	Korean	Bong Joon-ho	2019	9	10
+7	Pan's Labyrinth	Fantasy	Spanish	Guillermo del Toro	2006	8.5	10
+1	Inception	Science Fiction	English	Christopher Nolan	2010	7.5	10
+11	Crouching Tiger, Hidden Dragon	Action	Mandarin	Ang Lee	2000	7.25	10
 \.
 
 
