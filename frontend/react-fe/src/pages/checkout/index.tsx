@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import { CartContext } from '../../context/context.tsx';
 import { Header } from '../../components/header/index.tsx';
 import { CartCard } from '../../components/cartCard/index.tsx';
