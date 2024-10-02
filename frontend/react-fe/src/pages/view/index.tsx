@@ -1,8 +1,7 @@
 import React, {useEffect, useState}from 'react';
 import { useParams } from 'react-router-dom';
 import { Card } from '../../components/card/index.tsx';
-import Logo from '../../assets/logo.png';
-import { Link } from 'react-router-dom';
+import { Header } from '../../components/header/index.tsx';
 
 interface ViewProps {
     id: string;
@@ -24,14 +23,7 @@ export const View: React.FC<ViewProps> = () => {
 
     return (
         <>
-             <div className="head-logo">
-                <Link to="/">
-                    <img src={Logo} alt="logo" />
-                </Link>
-                <Link to="/browse">
-                Back to Browse
-                </Link>  
-            </div>
+            <Header />
             <div>
                 <Card movie={apiData[0]} />
             </div>

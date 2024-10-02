@@ -2,9 +2,9 @@
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     max-height: 200vh;
+    flex-basis: 25%;
 }
 
 .head-logo {

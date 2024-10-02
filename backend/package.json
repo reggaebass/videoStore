@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "express": "^4.19.2",
+    "font-awesome": "^4.7.0",
     "pg": "^8.13.0",
     "pg-format": "^1.0.4"
   }

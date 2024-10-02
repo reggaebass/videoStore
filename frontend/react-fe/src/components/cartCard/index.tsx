@@ -46,7 +46,7 @@ export const CartCard: React.FC<CartCardProps> = ({ movie }) => {
                 </div>
                 <div className='card-info__price'>
                     <span>Price</span>
-                    <span>{movie.price}</span>
+                    <span>{(Math.round(movie.price * 100) / 100).toFixed(2)}</span>
                 </div>
                 <div className='card-info__year'>
                     <span>Year</span>

@@ -5,3 +5,15 @@ body {
     font-family: 'Jost', 'Impact', sans-serif;
     color: #fff;
 }
+
+a {
+    color: #fff;
+    transition: color 0.3s;
+    text-decoration: none;
+    &:hover {
+        color: #4548e1;
+        img {
+            opacity: 0.8;
+        }
+    }
+}

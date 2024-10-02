@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        text-decoration: none;
+        a {
+            margin: 0 1em;
+            svg {
+                padding-right: 5px;
+            }
+        }
+    }
+}

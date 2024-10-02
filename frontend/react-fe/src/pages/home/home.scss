@@ -1,10 +1,13 @@
 .actions {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3em;
     .button {
         width: 130px;
         height: 130px;
         cursor: pointer;
+        margin-left: 20%;
     }
 }
 

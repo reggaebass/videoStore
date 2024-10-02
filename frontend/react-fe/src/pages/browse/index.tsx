@@ -1,7 +1,6 @@
 import React, { useState, useEffect }from 'react';
-import { Link } from 'react-router-dom';
 import { Card } from '../../components/card/index.tsx';
-import Logo from '../../assets/logo.png';
+import { Header } from '../../components/header/index.tsx';
 
 import './browse.scss';
 
@@ -14,20 +13,13 @@ export const Browse = () => {
             r => r.json()
         ).then(
             data => {
-                setApiData(data)
+                setApiData(data.sort((a, b) => a.title.localeCompare(b.title)))
             }
         )
     }, [])
     return(
         <>
-        <div className="head-logo">
-            <Link to="/">
-                <img src={Logo} alt="logo" />
-            </Link>  
-            <Link to="/checkout">
-                Go to Checkout
-            </Link>  
-        </div>
+        <Header />
         {(typeof apiData === 'undefined') ? (
             <p>loading...</p>
         ) : (

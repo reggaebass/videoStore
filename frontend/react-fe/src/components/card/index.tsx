@@ -53,7 +53,7 @@ export const Card: React.FC<CardProps> = ({ movie }) => {
                 </div>
                 <div className='card-info__price'>
                     <span>Price</span>
-                    <span>{movie.price}</span>
+                    <span>{(Math.round(movie.price * 100) / 100).toFixed(2)}</span>
                 </div>
                 <div className='card-info__year'>
                     <span>Year</span>
@@ -64,9 +64,14 @@ export const Card: React.FC<CardProps> = ({ movie }) => {
                     <span>{movie.stock}</span>
                 </div>
             </div>
-            <Button 
+            {movie.stock === 0 ? (
+                <h3>Out of Stock</h3>
+            ) : (
+                <Button 
                 onClick={() => handleclick()}
-            >Add to Cart</Button>
+                >Add to Cart</Button>
+            )}
+            
         </div>
     );
 };
