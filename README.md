@@ -38,7 +38,7 @@ The backend of this project is built with express.js
 to install postgres on a windows system follow the instructions here:
 https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/
 
-In the root folder of the project there is a file. `movieEdport.sql` which can be used to seed a psql database
+In the root folder of the project there is a file. `movieExport.sql` which can be used to seed a psql database
 
 Update the file `backend/database.js` with the postgres information for your local postgres installation
 
