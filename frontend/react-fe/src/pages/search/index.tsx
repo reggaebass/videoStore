@@ -23,7 +23,7 @@ export const MovieSearch: React.FC = () => {
         <div>
            <Header />
             <h1>Search for a Movie by Title</h1>
-            <Input placeholder="Search for a movie" onChange={(e) => setSearch(e.target.value)}/>
+            <Input placeholder="Search for a movie" onChange={(e) => setSearch(e.target.value.toLowerCase())}/>
             {resMovies.length > 0 && (
                 <div className="browse-container">{
                     resMovies.map((m, i) => (

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Button } from 'antd';
 import { CartContext } from "../../context/context.tsx";
+import './cartCard.scss';
 
 interface CartCardProps {
     movie: {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'antd';
 import { useNavigate } from 'react-router-dom';
+import './returnCard.scss';
 
 interface ReturnCardProps {
     movie: {
@@ -37,7 +38,7 @@ export const ReturnCard: React.FC<ReturnCardProps> = ({ movie }) => {
         navigate('/');
     };
     return (
-        <div className="cart-card">
+        <div className="return-card">
             <h2>{movie.title}</h2>
             <div className='card-info'>
                 <div className='card-info__genre'>
